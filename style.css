@@ -328,14 +328,14 @@ h3{
 
 #container3{
  width: 50%;
- height: 60vh;
+ height: 70vh;
  margin:0;
  float: left;
 }
 
 #container4{
  width: 50%;
- height: 60vh;
+ height: 70vh;
  margin:0;
  float:right;
 }
@@ -373,5 +373,5 @@ h3{
 }
 
 #container5{
-    height:40vh;
+    height:30vh;
 }
