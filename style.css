@@ -326,6 +326,20 @@ h3{
  margin:0;
 }
 
+#container3{
+ width: 50%;
+ height: 60vh;
+ margin:0;
+ float: left;
+}
+
+#container4{
+ width: 50%;
+ height: 60vh;
+ margin:0;
+ float:right;
+}
+
 .scroller {
     height: 100vh;
     overflow-y: scroll;
@@ -356,4 +370,8 @@ h3{
     background-color: transparent;
     right: 2vw;
     top:85vh;
+}
+
+#container5{
+    height:40vh;
 }
