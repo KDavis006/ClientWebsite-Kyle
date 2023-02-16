@@ -1,19 +1,15 @@
 *{
  margin: 0;
+ color: #bf1e61;
 }
 
 body{
- margin-top: 150px;
  background-image: linear-gradient(to right, pink, violet, purple);
 }
 
 p{
  width: 60%;
  padding-left: 2vw;
-}
-
-h1{
- margin-left: 25%
 }
 
 nav{
@@ -23,7 +19,7 @@ nav{
  width: 100vw;
 }
 
-img{
+#logo{
  max-width: 150px;
  max-height:150px; 
  padding-left: 2vw;
@@ -34,10 +30,9 @@ button{
  margin-left: 12px;
  margin-right: 12px;
  padding: 5px;
- border: 0;
+ border: 2px solid #bf1e61;
  border-radius: 15px;
  background-color: black;
- color:#bf1e61;
  float: right;
  font-size: 2rem;
 }
@@ -123,16 +118,14 @@ form {
 
 
 .line {
- display: fixed;
- position: absolute;
+ position: fixed;
  background-color: black;
  border-radius: 2px;
  width: 20px;
  z-index: -100;
 }
 .circle {
- display: fixed;
- position: absolute;
+ position: fixed;
  border: 10px solid black;
  border-radius: 100%;
  height: 20px;
@@ -141,8 +134,7 @@ form {
 }
 
 .slant {
- display: fixed;
- position: absolute;
+ position: fixed;
  background-color: black;
  border-radius: 1.6px;
  width: 20px;
@@ -169,7 +161,7 @@ form {
 }
 
 #line2{
- height: 265px;
+ height: 255px;
  left: 12vw;
  top: 70vh;
  
@@ -199,7 +191,7 @@ form {
 }
 
 #line4 {
- height: 265px;
+ height: 255px;
  left: 16vw;
  top: 70vh;
  
@@ -225,7 +217,7 @@ form {
 }
 
 #line6 {
- height: 265px;
+ height: 255px;
  left: 8vw;
  top: 70vh;
  
@@ -251,7 +243,7 @@ form {
 }
 
 #line8 {
- height: 265px;
+ height: 255px;
  left: 85.15vw;
  top: 70vh;
 }
@@ -276,7 +268,7 @@ form {
 }
 
 #line10 {
- height: 265px;
+ height: 255px;
  left: 81.15vw;
  top: 70vh;
 }
@@ -300,7 +292,37 @@ form {
 }
 
 #line12 {
- height: 265px;
+ height: 255px;
  left: 89.15vw;
  top: 70vh;
+}
+
+#container{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 60%;
+ margin-left: 20%;
+ height:100vh;
+ background-color: #290441;
+}
+
+h1{
+ font-size: 4rem;
+ padding: 5px;
+}
+
+h3{
+ font-size:xx-large;
+}
+
+.computerimg{
+ width: 100%;
+}
+
+.img{
+ background-image:url("./images/signal-2023-01-17-10-14-37-000.jpg");
+ height: 200px;
+ width: 100%;
 }
