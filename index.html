@@ -13,12 +13,16 @@
   <img src="./images/clientLogo2.png" alt="QuikTeck Logo" id="logo">
   <form autocomplete="off">
    <input type="text" name="q" id="myInput" onKeyUp="showResults(this.value)"/>
-   <div class="icon"><i class="fas fa-search"></i></div>
+   <div class="icon fade"><i class="fas fa-search"></i></div>
   </form>
-  <button>Page 3</button>
-  <button>Page 2</button>
-  <button>Page 1</button>
+  <button class="fade">Page 3</button>
+  <button class="fade">Page 2</button>
+  <button class="fade">Page 1</button>
  </nav>
+
+ <button id="scrollUp">&#10094;</button>
+ <button id="scrollDown">&#10094;</button>
+
 <div id="area1">
  <div id="line1" class="line"></div>
  <div id="circle1" class="circle"></div>
@@ -53,13 +57,24 @@
  <div id="line12" class="line"></div>
 </div>
 
-<div id="container">
- <div class="img">
- </div>
- <h1>Gaming Computer Builds</h1>
- <h3>Get Started on your Gaming Computer Adventure</h3>
- <button class="buttonCenter">Get Started</button>
-</div>
+<article class="scroller">
+ <section>
+  <div class="container">
+   <img src="./images/signal-2023-01-17-10-14-37-000.jpg" alt="computer Img" class="computer">
+   <h1>Gaming Computer Builds</h1>
+   <h3>Get Started on your Gaming Computer Adventure</h3>
+   <button class="buttonCenter fade">Get Started</button>
+  </div>
+ </section>
+ <section>
+  <div class="container" id="container2">
+   <img src="./images/signal-2023-01-17-10-14-37-000.jpg" alt="computer Img" class="computer">
+   <h1>Gaming Computer Builds</h1>
+   <h3>Get Started on your Gaming Computer Adventure</h3>
+   <button class="buttonCenter fade">Get Started</button>
+  </div>
+ </section>
+</article>
  <script src="script.js"></script>
 </body>
 </html>

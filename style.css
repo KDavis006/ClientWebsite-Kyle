@@ -3,6 +3,10 @@
  color: #bf1e61;
 }
 
+*::-webkit-scrollbar{
+display:none;
+}
+
 body{
  background-image: linear-gradient(to right, pink, violet, purple);
 }
@@ -86,22 +90,16 @@ form .icon {
  border-radius: 100%;
 }
 
-.icon:hover{
- animation: fade 1s infinite;
+
+.fade{
+    transition: 1s;
 }
-
-@keyframes fade{
- 0%{
-  opacity:1;
- }
-
- 100%{
-  opacity: .5;
- }
+.fade:hover{
+ opacity: .6;
 }
 form {
  position: absolute;
- right: 40vw;
+ right: 35vw;
  top: 4vh;
  height: 55px;
  width: 55px;
@@ -297,7 +295,7 @@ form {
  top: 70vh;
 }
 
-#container{
+.container{
  display:flex;
  flex-direction: column;
  justify-content: center;
@@ -317,12 +315,45 @@ h3{
  font-size:xx-large;
 }
 
-.computerimg{
+.computer{
  width: 100%;
+ height:30%;
 }
 
-.img{
- background-image:url("./images/signal-2023-01-17-10-14-37-000.jpg");
- height: 200px;
+
+#container2{
  width: 100%;
+ margin:0;
+}
+
+.scroller {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}
+
+#scrollUp{
+    rotate: 90deg;
+    color: #fff;
+    font-size: 4rem;
+    position: fixed;
+    border:0;
+    background-color: transparent;
+    right: 2vw;
+    top:8vh;
+}
+
+#scrollDown{
+    rotate: -90deg;
+    color: #fff;
+    font-size: 4rem;
+    position: fixed;
+    border:0;
+    background-color: transparent;
+    right: 2vw;
+    top:85vh;
 }
