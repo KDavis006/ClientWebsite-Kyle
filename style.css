@@ -8,7 +8,7 @@ display:none;
 }
 
 body{
- background-image: linear-gradient(to right, pink, violet, purple);
+ background-image: linear-gradient(to bottom, #644bff, #ff7130);
 }
 
 p{
@@ -19,7 +19,7 @@ p{
 nav{
  position: fixed;
  top:0;
- background-color: #290441;
+ background-color: #171721;
  width: 100vw;
 }
 
@@ -223,18 +223,18 @@ form {
 
 #line7 {
  height: 300px;
- left: 89.19vw;
+ left: 90.19vw;
  top: 25vh;
  
 }
 
 #circle4 {
- left: 88.6vw;
+ left: 89.6vw;
  top: 21vh;
 }
 
 #slant4 {
- left: 87.15vw;
+ left: 88.15vw;
  top: 57.5vh;
  rotate: 35deg;
  transform: skewY(35deg);
@@ -242,24 +242,24 @@ form {
 
 #line8 {
  height: 255px;
- left: 85.15vw;
+ left: 86.15vw;
  top: 70vh;
 }
 
 
 #line9 {
  height: 300px;
- left: 85.2vw;
+ left: 86.2vw;
  top: 25vh;
 }
 
 #circle5 {
- left: 84.6vw;
+ left: 85.6vw;
  top: 21vh;
 }
 
 #slant5 {
- left: 83.19vw;
+ left: 84.19vw;
  top: 57.5vh;
  rotate: 35deg;
  transform: skewY(35deg);
@@ -267,23 +267,23 @@ form {
 
 #line10 {
  height: 255px;
- left: 81.15vw;
+ left: 82.15vw;
  top: 70vh;
 }
 
 #line11 {
  height: 300px;
- left: 93.2vw;
+ left: 94.2vw;
  top: 25vh;
 }
 
 #circle6 {
- left: 92.6vw;
+ left: 93.6vw;
  top: 21vh;
 }
 
 #slant6 {
- left: 91.15vw;
+ left: 92.15vw;
  top: 57.5vh;
  rotate: 35deg;
  transform: skewY(35deg);
@@ -291,7 +291,7 @@ form {
 
 #line12 {
  height: 255px;
- left: 89.15vw;
+ left: 90.15vw;
  top: 70vh;
 }
 
@@ -303,7 +303,7 @@ form {
  width: 60%;
  margin-left: 20%;
  height:100vh;
- background-color: #290441;
+ background-color: #171721;
 }
 
 h1{
